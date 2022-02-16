@@ -1,0 +1,220 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(234, 226, 241);
+}
+nav{
+    background-color: azure;
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-upper{
+    /* border: 3px solid rgb(22, 8, 8); */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-upper-left{
+    /* border: 3px solid rgb(179, 6, 6); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-upper-heading{
+    font-size: 1.8rem;
+    padding: 5px;
+
+}
+.nav-upper-heading-span{
+    color: rgb(19, 224, 19);
+}
+.nav-toggle{
+    font-size: 1.8rem;
+    padding: 2px;
+    margin: 5px;
+    display: none;
+
+}
+.nav-upper-right{
+
+}
+.nav-upper-icon{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* font-size: 5rem; */
+}
+.nav-upper-icon h2{
+
+}
+.nav-upper-icon li{
+    /* border: 3px solid green; */
+    list-style-type: none;
+    margin: 2px;
+    padding: 5px; 
+    margin: 5px;   
+}
+ .toggle-nav-display{
+        width: 100%;
+        display: flex;
+         
+    } 
+.nav-lower{
+        /* border: 3px solid rgb(22, 8, 8); */
+    /* background-color: rgb(253, 254, 255);     */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-lower-left{
+    /* border: 3px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-lower-left li{
+    list-style-type: none;
+    margin: 5px;
+    font-size: 1.3rem;
+
+}
+.nav-lower-right{
+    /* border: 3px solid rgb(5, 3, 3); */
+    width: 25%;
+}
+#search{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border: 1px solid lightgreen;
+    background-color: azure;
+    font-size: 1.2rem;
+}
+@media only screen and (max-width: 800px) {
+    body{
+    background-color: rgb(234, 226, 241);
+    }
+    nav{
+        background-color: azure;
+        /* border: 3px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-upper{
+        /* border: 3px solid rgb(22, 8, 8); */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .nav-upper-left{
+        /* border: 3px solid rgb(179, 6, 6); */
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-around; */
+    }
+    .nav-upper-heading{
+        font-size: 1.8rem;
+        padding: 5px;
+
+    }
+    .nav-upper-heading-span{
+        color: rgb(19, 224, 19);
+    }
+    .nav-toggle{
+        display: block;
+        font-size: 1.8rem;
+        padding: 2px;
+        margin: 5px;
+
+    }
+    .nav-toggle-btn{
+        /* border: 3px solid green; */
+        font-size: 1.8rem;
+        border: none;
+        background-color: aliceblue;
+    }
+    
+    .nav-upper-right{
+        display: none;
+    }
+    .nav-upper-icon{
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* font-size: 5rem; */
+    }
+    .nav-upper-icon h2{
+
+    }
+    .nav-upper-icon li{
+        /* border: 3px solid green; */
+        list-style-type: none;
+        margin: 2px;
+        padding: 5px; 
+        margin: 5px;   
+    }
+    .toggle-nav-display{
+        display: none;
+    }
+    .toggle-navbar-class{
+        display: block;
+    }
+    .nav-lower{
+        /* border: 3px solid rgb(22, 8, 8); */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        
+    }
+    .nav-lower-left{
+
+        /* border: 3px solid red; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .nav-lower-left li{
+        list-style-type: none;
+        padding: 5px;
+        margin: 5px;
+        font-size: 1.3rem;
+
+    }
+    .nav-lower-right{
+        /* border: 3px solid rgb(5, 3, 3); */
+        margin: 5px;
+        padding: 5px;
+        width: 60%;
+    }
+    #search{
+        width: 100%;
+        height: 100%;
+        border: none;
+        border: 1px solid lightgreen;
+        background-color: azure;
+        font-size: 1.2rem;
+    }
+    
+
+    
+}
